@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/age-register.css">
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+    <div id="age-register-popup">
+      <div id="age-register-18-wrapper">
+      </div>
+      <div class="age-register-18">
+        <div class="age-register-description">
+          <h1 id="age-register-description-title">Altersüberprüfung</h1>
+          <p>Die Nutzung dieses Onlineshops ist nur für Personen gestattet, <br> die <b style="color: #656842;">mindestens 18 Jahre</b> alt <br> oder nach den Gesetzen ihres Wohnortes volljährig sind.
+            <div id="age-register-description-question">
+            Sind Sie 18 Jahre alt oder älter?
+          </div>
+          </p>
+        </div>
+        <div class="age-register-button-description">
+          <center>
+            <h2>Das Mindestalter für diesen Onlineshop ist 18 Jahre!</h2>
+          </center>
+        <div class="age-register-button">
+        <center>
+          <button id="is18" onclick="hideAgeRestriction(true);">Ich bestätige das ich 18 Jahre oder älter bin</button>
+          <br>
+          <div id="button-unregister-18">
+            <button id="isNot18" onclick="hideAgeRestriction(false); window.location = 'https://www.google.com'" >Ich bin noch nicht volljährig</button>
+            <p> </p>
+          </div>
+        </center>
+        </div>
+      </div>
+      </div>
+    </div>
+    <script language="Javascript" src="javascript/age-register.js"></script>
+  </body>
+</html>
